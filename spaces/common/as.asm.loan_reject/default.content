@@ -1,0 +1,40 @@
+<ActivityStreamModel description="" name="loan_reject" timezone="Asia/Krasnoyarsk" daylight="false" is_init="false">
+  <ModelInfo validated="true">
+    <DataSource category="FileUpload" untyped="true" name="file" label="loan_reject.csv" type="FileUpload">
+      <Param name="file" label="Upload File" value="loan_reject.csv###application/vnd.ms-excel###184" type="file" binding="" encoding="utf-8"/>
+      <Param name="encode" label="Encoding*" value="utf-8" type="enumerations" binding=""/>
+    </DataSource>
+    <Samples>
+      <Sample name="" label="loan_reject.csv" payloadId="SOURCE" mimeType="application/csv">
+        <Param name="file" label="Upload File" value="loan_reject.csv###application/vnd.ms-excel###184" type="file" encoding="utf-8"/>
+        <Param name="encode" label="Encoding*" value="utf-8" type="enumerations"/>
+      </Sample>
+    </Samples>
+    <DeletedNamespaces>
+    </DeletedNamespaces>
+    <UserSchemas>
+    </UserSchemas>
+    <Parser type="line" tokenizer="delimited">
+      <Configuration headerRow="true" delimiter="comma"/>
+    </Parser>
+    <Schema>
+      <group id="ROOT" label="ROOT" name="(event)">
+        <field id="LoanId" label="LoanId" name="LoanId" value="968" type="integer"/>
+        <field id="TimeStamp" label="TimeStamp" name="TimeStamp" value="4/25/2012 1:53" type="datetime" constraints="M/d/yy HH:mm" locale="" correlation="ref=TimeStamp"/>
+        <field id="Status" label="Status" name="Status" value="loan_reject" type="string"/>
+      </group>
+    </Schema>
+    <Views name="loan_reject" userDefined="false"  desc="">
+    </Views>
+    <Targets>
+       <Target name="loan_reject" type="GeneratedFeed" persistence="OFF" maxSize="0" registryName="/reg/feed/loan_reject" registered="false">
+           <eventArchive type="NONE">
+           </eventArchive>
+       </Target>
+    </Targets>
+    <Filters filterType="expression" filterRelation="AND">
+    </Filters>
+    <Markups>
+    </Markups>
+  </ModelInfo>
+</ActivityStreamModel>

@@ -1,0 +1,27 @@
+{
+  "contents": [
+    {
+      "fileref": "ModelContentFile0",
+      "name": "default"
+    },
+    {
+      "classname": "bytearray",
+      "fileref": "ModelContentFile1",
+      "name": "SOURCE"
+    }
+  ],
+  "lastDate": "1588743301802",
+  "owner": "vtbaadmin",
+  "properties": {
+    "_RESOURCE_Type": "asm",
+    "com.vitria.as.references": "ref=TimeStamp",
+    "com.vitria.as.samples": "=prop_appr.csv",
+    "com.vitria.as.size": "1262",
+    "live": "false",
+    "modelStatus": "valid",
+    "name": "prop_appr",
+    "vtui:defaultFeed": "prop_appr",
+    "vtui:deployedDistinctViews": "",
+    "vtui:deployedFeeds": "/appdata/as/_prj/vt602e779e-0ba4-4db1-ac4f-d42217d840ad$Deployment/Outbound/Feed/prop_appr"
+  }
+}

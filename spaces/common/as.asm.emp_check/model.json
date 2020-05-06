@@ -1,0 +1,27 @@
+{
+  "contents": [
+    {
+      "fileref": "ModelContentFile0",
+      "name": "default"
+    },
+    {
+      "classname": "bytearray",
+      "fileref": "ModelContentFile1",
+      "name": "SOURCE"
+    }
+  ],
+  "lastDate": "1588743301819",
+  "owner": "vtbaadmin",
+  "properties": {
+    "_RESOURCE_Type": "asm",
+    "com.vitria.as.references": "ref=TimeStamp",
+    "com.vitria.as.samples": "=emp_check.csv",
+    "com.vitria.as.size": "1509",
+    "live": "false",
+    "modelStatus": "valid",
+    "name": "emp_check",
+    "vtui:defaultFeed": "emp_check",
+    "vtui:deployedDistinctViews": "",
+    "vtui:deployedFeeds": "/appdata/as/_prj/vt6eab3a3f-845b-4ea9-ada2-8793302a915d$Deployment/Outbound/Feed/emp_check"
+  }
+}

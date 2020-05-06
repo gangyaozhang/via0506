@@ -1,0 +1,27 @@
+{
+  "contents": [
+    {
+      "fileref": "ModelContentFile0",
+      "name": "default"
+    },
+    {
+      "classname": "bytearray",
+      "fileref": "ModelContentFile1",
+      "name": "SOURCE"
+    }
+  ],
+  "lastDate": "1588743301786",
+  "owner": "vtbaadmin",
+  "properties": {
+    "_RESOURCE_Type": "asm",
+    "com.vitria.as.references": "ref=TimeStamp",
+    "com.vitria.as.samples": "=credit_check.csv",
+    "com.vitria.as.size": "1846",
+    "live": "false",
+    "modelStatus": "valid",
+    "name": "credit_check",
+    "vtui:defaultFeed": "credit_check",
+    "vtui:deployedDistinctViews": "",
+    "vtui:deployedFeeds": "/appdata/as/_prj/vta824bd24-43a5-49c0-ae9e-5f8142aedc84$Deployment/Outbound/Feed/credit_check"
+  }
+}

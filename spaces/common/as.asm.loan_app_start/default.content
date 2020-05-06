@@ -1,0 +1,41 @@
+<ActivityStreamModel description="" name="loan_app_start" timezone="Asia/Krasnoyarsk" daylight="false" is_init="false">
+  <ModelInfo validated="true">
+    <DataSource category="FileUpload" untyped="true" name="file" label="loan_app_start.csv" type="FileUpload">
+      <Param name="file" label="Upload File" value="loan_app_start.csv###application/vnd.ms-excel###1589" type="file" binding="" encoding="utf-8"/>
+      <Param name="encode" label="Encoding*" value="utf-8" type="enumerations" binding=""/>
+    </DataSource>
+    <Samples>
+      <Sample name="" label="loan_app_start.csv" payloadId="SOURCE" mimeType="application/csv">
+        <Param name="file" label="Upload File" value="loan_app_start.csv###application/vnd.ms-excel###1589" type="file" encoding="utf-8"/>
+        <Param name="encode" label="Encoding*" value="utf-8" type="enumerations"/>
+      </Sample>
+    </Samples>
+    <DeletedNamespaces>
+    </DeletedNamespaces>
+    <UserSchemas>
+    </UserSchemas>
+    <Parser type="line" tokenizer="delimited">
+      <Configuration headerRow="true" delimiter="comma"/>
+    </Parser>
+    <Schema>
+      <group id="ROOT" label="ROOT" name="(event)">
+        <field id="LoanId" label="LoanId" name="LoanId" value="41" type="integer"/>
+        <field id="TimeStamp" label="TimeStamp" name="TimeStamp" value="4/19/2012 0:58" type="datetime" constraints="M/d/yy HH:mm" locale="" correlation="ref=TimeStamp"/>
+        <field id="cust_type" label="cust_type" name="cust_type" value="P" type="string"/>
+        <field id="Status" label="Status" name="Status" value="loan_app_start" type="string"/>
+      </group>
+    </Schema>
+    <Views name="loan_app_start" userDefined="false"  desc="">
+    </Views>
+    <Targets>
+       <Target name="loan_app_start" type="GeneratedFeed" persistence="OFF" maxSize="0" registryName="/reg/feed/loan_app_start" registered="false">
+           <eventArchive type="NONE">
+           </eventArchive>
+       </Target>
+    </Targets>
+    <Filters filterType="expression" filterRelation="AND">
+    </Filters>
+    <Markups>
+    </Markups>
+  </ModelInfo>
+</ActivityStreamModel>

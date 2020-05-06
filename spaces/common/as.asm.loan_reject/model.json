@@ -1,0 +1,27 @@
+{
+  "contents": [
+    {
+      "fileref": "ModelContentFile0",
+      "name": "default"
+    },
+    {
+      "classname": "bytearray",
+      "fileref": "ModelContentFile1",
+      "name": "SOURCE"
+    }
+  ],
+  "lastDate": "1588743301790",
+  "owner": "vtbaadmin",
+  "properties": {
+    "_RESOURCE_Type": "asm",
+    "com.vitria.as.references": "ref=TimeStamp",
+    "com.vitria.as.samples": "=loan_reject.csv",
+    "com.vitria.as.size": "184",
+    "live": "false",
+    "modelStatus": "valid",
+    "name": "loan_reject",
+    "vtui:defaultFeed": "loan_reject",
+    "vtui:deployedDistinctViews": "",
+    "vtui:deployedFeeds": "/appdata/as/_prj/vtae498e0c-7165-45d1-a542-88ca5c9dcac2$Deployment/Outbound/Feed/loan_reject"
+  }
+}

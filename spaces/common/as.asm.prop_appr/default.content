@@ -1,0 +1,40 @@
+<ActivityStreamModel description="" name="prop_appr" timezone="Asia/Krasnoyarsk" daylight="false" is_init="false">
+  <ModelInfo validated="true">
+    <DataSource category="FileUpload" untyped="true" name="file" label="prop_appr.csv" type="FileUpload">
+      <Param name="file" label="Upload File" value="prop_appr.csv###application/vnd.ms-excel###1262" type="file" binding="" encoding="utf-8"/>
+      <Param name="encode" label="Encoding*" value="utf-8" type="enumerations" binding=""/>
+    </DataSource>
+    <Samples>
+      <Sample name="" label="prop_appr.csv" payloadId="SOURCE" mimeType="application/csv">
+        <Param name="file" label="Upload File" value="prop_appr.csv###application/vnd.ms-excel###1262" type="file" encoding="utf-8"/>
+        <Param name="encode" label="Encoding*" value="utf-8" type="enumerations"/>
+      </Sample>
+    </Samples>
+    <DeletedNamespaces>
+    </DeletedNamespaces>
+    <UserSchemas>
+    </UserSchemas>
+    <Parser type="line" tokenizer="delimited">
+      <Configuration headerRow="true" delimiter="comma"/>
+    </Parser>
+    <Schema>
+      <group id="ROOT" label="ROOT" name="(event)">
+        <field id="LoanId" label="LoanId" name="LoanId" value="41" type="integer"/>
+        <field id="TimeStamp" label="TimeStamp" name="TimeStamp" value="4/15/2012 0:05" type="datetime" constraints="M/d/yy HH:mm" locale="" correlation="ref=TimeStamp"/>
+        <field id="Status" label="Status" name="Status" value="prop_appr" type="string"/>
+      </group>
+    </Schema>
+    <Views name="prop_appr" userDefined="false"  desc="">
+    </Views>
+    <Targets>
+       <Target name="prop_appr" type="GeneratedFeed" persistence="OFF" maxSize="0" registryName="/reg/feed/prop_appr" registered="false">
+           <eventArchive type="NONE">
+           </eventArchive>
+       </Target>
+    </Targets>
+    <Filters filterType="expression" filterRelation="AND">
+    </Filters>
+    <Markups>
+    </Markups>
+  </ModelInfo>
+</ActivityStreamModel>

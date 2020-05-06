@@ -1,0 +1,27 @@
+{
+  "contents": [
+    {
+      "fileref": "ModelContentFile0",
+      "name": "default"
+    },
+    {
+      "classname": "bytearray",
+      "fileref": "ModelContentFile1",
+      "name": "SOURCE"
+    }
+  ],
+  "lastDate": "1588743301815",
+  "owner": "vtbaadmin",
+  "properties": {
+    "_RESOURCE_Type": "asm",
+    "com.vitria.as.references": "ref=TimeStamp",
+    "com.vitria.as.samples": "=LoanRel.csv",
+    "com.vitria.as.size": "282",
+    "live": "false",
+    "modelStatus": "valid",
+    "name": "LoanRel",
+    "vtui:defaultFeed": "LoanRel",
+    "vtui:deployedDistinctViews": "",
+    "vtui:deployedFeeds": "/appdata/as/_prj/vt5c18b15e-d5a7-42f2-9c62-f84f7e5acc8d$Deployment/Outbound/Feed/LoanRel"
+  }
+}

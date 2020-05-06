@@ -1,0 +1,41 @@
+<ActivityStreamModel description="" name="emp_check" timezone="Asia/Krasnoyarsk" daylight="false" is_init="false">
+  <ModelInfo validated="true">
+    <DataSource category="FileUpload" untyped="true" name="file" label="emp_check.csv" type="FileUpload">
+      <Param name="file" label="Upload File" value="emp_check.csv###application/vnd.ms-excel###1509" type="file" binding="" encoding="utf-8"/>
+      <Param name="encode" label="Encoding*" value="utf-8" type="enumerations" binding=""/>
+    </DataSource>
+    <Samples>
+      <Sample name="" label="emp_check.csv" payloadId="SOURCE" mimeType="application/csv">
+        <Param name="file" label="Upload File" value="emp_check.csv###application/vnd.ms-excel###1509" type="file" encoding="utf-8"/>
+        <Param name="encode" label="Encoding*" value="utf-8" type="enumerations"/>
+      </Sample>
+    </Samples>
+    <DeletedNamespaces>
+    </DeletedNamespaces>
+    <UserSchemas>
+    </UserSchemas>
+    <Parser type="line" tokenizer="delimited">
+      <Configuration headerRow="true" delimiter="comma"/>
+    </Parser>
+    <Schema>
+      <group id="ROOT" label="ROOT" name="(event)">
+        <field id="check_req_id" label="check_req_id" name="check_req_id" value="41" type="integer"/>
+        <field id="TimeStamp" label="TimeStamp" name="TimeStamp" value="4/9/2012 0:24" type="datetime" constraints="M/d/yy HH:mm" locale="" correlation="ref=TimeStamp"/>
+        <field id="Type" label="Type" name="Type" value="emp_check" type="string"/>
+        <field id="score" label="score" name="score" value="17" type="integer"/>
+      </group>
+    </Schema>
+    <Views name="emp_check" userDefined="false"  desc="">
+    </Views>
+    <Targets>
+       <Target name="emp_check" type="GeneratedFeed" persistence="OFF" maxSize="0" registryName="/reg/feed/emp_check" registered="false">
+           <eventArchive type="NONE">
+           </eventArchive>
+       </Target>
+    </Targets>
+    <Filters filterType="expression" filterRelation="AND">
+    </Filters>
+    <Markups>
+    </Markups>
+  </ModelInfo>
+</ActivityStreamModel>

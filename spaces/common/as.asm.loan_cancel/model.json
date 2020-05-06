@@ -1,0 +1,27 @@
+{
+  "contents": [
+    {
+      "fileref": "ModelContentFile0",
+      "name": "default"
+    },
+    {
+      "classname": "bytearray",
+      "fileref": "ModelContentFile1",
+      "name": "SOURCE"
+    }
+  ],
+  "lastDate": "1588743301810",
+  "owner": "vtbaadmin",
+  "properties": {
+    "_RESOURCE_Type": "asm",
+    "com.vitria.as.references": "ref=TimeStamp",
+    "com.vitria.as.samples": "=loan_cancel.csv",
+    "com.vitria.as.size": "219",
+    "live": "false",
+    "modelStatus": "valid",
+    "name": "loan_cancel",
+    "vtui:defaultFeed": "loan_cancel",
+    "vtui:deployedDistinctViews": "",
+    "vtui:deployedFeeds": "/appdata/as/_prj/vt1455feaf-8bab-4225-93ef-6f658706fd9e$Deployment/Outbound/Feed/loan_cancel"
+  }
+}

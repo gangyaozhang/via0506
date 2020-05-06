@@ -1,0 +1,46 @@
+check_req_id,TimeStamp,Type,score
+41,4/9/2012 0:24,credit_check,Excellent
+42,4/9/2012 1:23,credit_check,Poor
+43,4/9/2012 2:14,credit_check,Poor
+44,4/9/2012 4:45,credit_check,Excellent
+45,4/9/2012 5:48,credit_check,Excellent
+46,4/9/2012 7:01,credit_check,Good
+47,4/9/2012 9:51,credit_check,Average
+48,4/9/2012 11:17,credit_check,Good
+49,4/9/2012 13:11,credit_check,Average
+50,4/9/2012 15:02,credit_check,Average
+51,4/9/2012 17:33,credit_check,Good
+52,4/9/2012 18:37,credit_check,Very Good
+53,4/9/2012 19:42,credit_check,Very Good
+54,4/9/2012 21:38,credit_check,Good
+55,4/9/2012 23:38,credit_check,Very Good
+101,4/10/2012 0:05,credit_check,Very Good
+102,4/10/2012 1:42,credit_check,Good
+103,4/10/2012 2:02,credit_check,Average
+104,4/10/2012 4:55,credit_check,Good
+105,4/10/2012 6:47,credit_check,Poor
+106,4/10/2012 7:51,credit_check,Poor
+107,4/10/2012 8:00,credit_check,Excellent
+108,4/10/2012 10:19,credit_check,Average
+109,4/10/2012 12:55,credit_check,Very Good
+110,4/10/2012 13:28,credit_check,Poor
+111,4/10/2012 15:57,credit_check,Very Good
+112,4/10/2012 17:14,credit_check,Poor
+113,4/10/2012 18:51,credit_check,Good
+114,4/10/2012 20:00,credit_check,Average
+115,4/10/2012 22:46,credit_check,Very Good
+968,4/11/2012 0:01,credit_check,Excellent
+969,4/11/2012 1:22,credit_check,Poor
+970,4/11/2012 2:55,credit_check,Good
+971,4/11/2012 4:10,credit_check,Poor
+972,4/11/2012 6:55,credit_check,Poor
+973,4/11/2012 7:15,credit_check,Good
+974,4/11/2012 8:55,credit_check,Good
+975,4/11/2012 10:31,credit_check,Average
+976,4/11/2012 12:15,credit_check,Excellent
+977,4/11/2012 14:06,credit_check,Poor
+978,4/11/2012 16:42,credit_check,Very Good
+979,4/11/2012 18:21,credit_check,Average
+980,4/11/2012 20:55,credit_check,Very Good
+981,4/11/2012 21:35,credit_check,Excellent
+982,4/11/2012 23:45,credit_check,Very Good

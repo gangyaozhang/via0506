@@ -1,0 +1,43 @@
+<ActivityStreamModel description="" name="LoanInit" timezone="Asia/Krasnoyarsk" daylight="false" is_init="false">
+  <ModelInfo validated="true">
+    <DataSource category="FileUpload" untyped="true" name="file" label="Loaninit.csv" type="FileUpload">
+      <Param name="file" label="Upload File" value="Loaninit.csv###application/vnd.ms-excel###2060" type="file" binding="" encoding="utf-8"/>
+      <Param name="encode" label="Encoding*" value="utf-8" type="enumerations" binding=""/>
+    </DataSource>
+    <Samples>
+      <Sample name="" label="Loaninit.csv" payloadId="SOURCE" mimeType="application/csv">
+        <Param name="file" label="Upload File" value="Loaninit.csv###application/vnd.ms-excel###2060" type="file" encoding="utf-8"/>
+        <Param name="encode" label="Encoding*" value="utf-8" type="enumerations"/>
+      </Sample>
+    </Samples>
+    <DeletedNamespaces>
+    </DeletedNamespaces>
+    <UserSchemas>
+    </UserSchemas>
+    <Parser type="line" tokenizer="delimited">
+      <Configuration headerRow="true" delimiter="comma"/>
+    </Parser>
+    <Schema>
+      <group id="ROOT" label="ROOT" name="(event)">
+        <field id="LoanReqId" label="LoanReqId" name="LoanReqId" value="41" type="integer"/>
+        <field id="req_date" label="req_date" name="req_date" value="4/1/2012 21:38" type="datetime" constraints="M/d/yy HH:mm" locale="" correlation="ref=req_date"/>
+        <field id="due_date" label="due_date" name="due_date" value="6/12/2012 21:38" type="datetime" constraints="M/d/yy HH:mm" locale=""/>
+        <field id="cust_status" label="cust_status" name="cust_status" value="1" type="integer"/>
+        <field id="status_code" label="status_code" name="status_code" value="101" type="integer"/>
+        <field id="cust_id" label="cust_id" name="cust_id" value="41" type="integer"/>
+      </group>
+    </Schema>
+    <Views name="LoanInit" userDefined="false"  desc="">
+    </Views>
+    <Targets>
+       <Target name="LoanInit" type="GeneratedFeed" persistence="OFF" maxSize="0" registryName="/reg/feed/SourceEvents_SourceEvents_Defaulttarget" registered="false">
+           <eventArchive type="NONE">
+           </eventArchive>
+       </Target>
+    </Targets>
+    <Filters filterType="expression" filterRelation="AND">
+    </Filters>
+    <Markups>
+    </Markups>
+  </ModelInfo>
+</ActivityStreamModel>
