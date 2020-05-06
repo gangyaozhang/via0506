@@ -1,0 +1,16 @@
+<ActivityStreamModel description="link1" name="New Model 1" timezone="Asia/Shanghai" daylight="false" is_init="false">
+  <ModelInfo validated="false">
+    <DataSource category="undefined" untyped="false">
+    </DataSource>
+    <Samples>
+    </Samples>
+    <DeletedNamespaces>
+    </DeletedNamespaces>
+    <UserSchemas>
+    </UserSchemas>
+    <Views>
+    </Views>
+    <Markups>
+    </Markups>
+  </ModelInfo>
+</ActivityStreamModel>
