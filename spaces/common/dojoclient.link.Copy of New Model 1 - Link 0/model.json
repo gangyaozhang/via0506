@@ -1,0 +1,14 @@
+{
+  "contents": [{
+    "fileref": "ModelContentFile0",
+    "name": "default"
+  }],
+  "lastDate": "1588733199354",
+  "owner": "vtbaadmin",
+  "properties": {
+    "_RESOURCE_Description": "{\"description\":\"jhkjhjh\",\"params\":\"\",\"uri\":\"/app/as/space/common/asm/New Model 1\"}",
+    "_RESOURCE_Type": "link",
+    "__references__": "/app/as/space/common/asm/New Model 1",
+    "name": "Copy of New Model 1 - Link 0"
+  }
+}
