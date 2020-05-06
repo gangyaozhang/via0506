@@ -3,12 +3,12 @@
     "fileref": "ModelContentFile0",
     "name": "default"
   }],
-  "lastDate": "1588735221858",
+  "lastDate": "1588735631965",
   "owner": "vtbaadmin",
   "properties": {
-    "_RESOURCE_Description": "{\"description\":\"\",\"params\":\"\",\"uri\":\"/app/as/space/common/asm/New Model 1\"}",
+    "_RESOURCE_Description": "{\"description\":\"\",\"params\":\"\",\"uri\":\"/app/as/space/common/asm/sb1\"}",
     "_RESOURCE_Type": "link",
-    "__references__": "/app/as/space/common/asm/New Model 1",
+    "__references__": "/app/as/space/common/asm/sb1",
     "name": "New Model 1 - Link"
   }
 }
