@@ -10,10 +10,12 @@
       "name": "SOURCE"
     }
   ],
-  "lastDate": "1588918853824",
+  "lastDate": "1588918936199",
   "owner": "vtbaadmin",
   "properties": {
+    "_RESOURCE_Description": "loan test",
     "_RESOURCE_Type": "asm",
+    "__references__": "",
     "com.vitria.as.references": "ref=TimeStamp",
     "com.vitria.as.samples": "=LoanRel.csv",
     "com.vitria.as.size": "282",
