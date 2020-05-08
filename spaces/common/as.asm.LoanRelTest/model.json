@@ -10,7 +10,7 @@
       "name": "SOURCE"
     }
   ],
-  "lastDate": "1588918829199",
+  "lastDate": "1588918853824",
   "owner": "vtbaadmin",
   "properties": {
     "_RESOURCE_Type": "asm",
@@ -19,7 +19,7 @@
     "com.vitria.as.size": "282",
     "live": "false",
     "modelStatus": "valid",
-    "name": "Copy of LoanRel 0",
+    "name": "LoanRelTest",
     "vtui:defaultFeed": "LoanRel",
     "vtui:deployedDistinctViews": "",
     "vtui:deployedFeeds": "/appdata/as/_prj/vt5c18b15e-d5a7-42f2-9c62-f84f7e5acc8d$Deployment/Outbound/Feed/LoanRel"
