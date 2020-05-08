@@ -9,13 +9,13 @@
       "name": "locale"
     }
   ],
-  "lastDate": "1588919354931",
+  "lastDate": "1588919379187",
   "owner": "vtbaadmin",
   "properties": {
     "_RESOURCE_Description": "sample",
     "_RESOURCE_Type": "axv",
     "__references__": "",
     "modelStatus": "valid",
-    "name": "DO sampl1e"
+    "name": "DO sampl1e_1"
   }
 }
