@@ -1,0 +1,39 @@
+<ActivityStreamModel description="" name="LoanRel" timezone="Asia/Krasnoyarsk" daylight="false" is_init="false">
+  <ModelInfo validated="true">
+    <DataSource category="FileUpload" untyped="true" name="file" label="LoanRel.csv" type="FileUpload">
+      <Param name="file" label="Upload File" value="LoanRel.csv###application/vnd.ms-excel###282" type="file" binding="" encoding="utf-8"/>
+      <Param name="encode" label="Encoding*" value="utf-8" type="enumerations" binding=""/>
+    </DataSource>
+    <Samples>
+      <Sample name="" label="LoanRel.csv" payloadId="SOURCE" mimeType="application/csv">
+        <Param name="file" label="Upload File" value="LoanRel.csv###application/vnd.ms-excel###282" type="file" encoding="utf-8"/>
+        <Param name="encode" label="Encoding*" value="utf-8" type="enumerations"/>
+      </Sample>
+    </Samples>
+    <DeletedNamespaces>
+    </DeletedNamespaces>
+    <UserSchemas>
+    </UserSchemas>
+    <Parser type="line" tokenizer="delimited">
+      <Configuration headerRow="true" delimiter="comma"/>
+    </Parser>
+    <Schema>
+      <group id="ROOT" label="ROOT" name="(event)">
+        <field id="BillId" label="BillId" name="BillId" value="41" type="integer"/>
+        <field id="TimeStamp" label="TimeStamp" name="TimeStamp" value="6/1/2012 18:07" type="datetime" constraints="M/d/yy HH:mm" locale="" correlation="ref=TimeStamp"/>
+      </group>
+    </Schema>
+    <Views name="LoanRel" userDefined="false"  desc="">
+    </Views>
+    <Targets>
+       <Target name="LoanRel" type="GeneratedFeed" persistence="OFF" maxSize="0" registryName="/reg/feed/LoanRel" registered="false">
+           <eventArchive type="NONE">
+           </eventArchive>
+       </Target>
+    </Targets>
+    <Filters filterType="expression" filterRelation="AND">
+    </Filters>
+    <Markups>
+    </Markups>
+  </ModelInfo>
+</ActivityStreamModel>
