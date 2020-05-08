@@ -1,0 +1,21 @@
+{
+  "contents": [
+    {
+      "fileref": "ModelContentFile0",
+      "name": "default"
+    },
+    {
+      "fileref": "ModelContentFile1",
+      "name": "locale"
+    }
+  ],
+  "lastDate": "1588920894145",
+  "owner": "vtbaadmin",
+  "properties": {
+    "_RESOURCE_Description": "sample2",
+    "_RESOURCE_Type": "axv",
+    "__references__": "",
+    "modelStatus": "valid",
+    "name": "DO sampl1e_2_1"
+  }
+}
